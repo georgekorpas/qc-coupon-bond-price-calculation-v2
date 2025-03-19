@@ -44,9 +44,9 @@ def run(input_data, solver_params=None, extra_arguments=None):
     """
     Runs the bond pricing simulation.
     """
-    initial_rate = input_data["InitialInterestRate"]
+    initial_rate = input_data["Initial Interest Rate"]
     volatility = input_data["Volatility"]
-    bond_maturity = input_data["MaturityTime"] / 12  # Convert months to years
+    bond_maturity = input_data["Maturity Time"] / 12  # Convert months to years
 
     # Retrieve number of simulations from solver_params
     num_simulations = solver_params.get("NumberOfSimulations", 10000)

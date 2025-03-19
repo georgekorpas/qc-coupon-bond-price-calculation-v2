@@ -1,8 +1,8 @@
 {
     "data": {
-        "MaturityTime": 120,
+        "Maturity Time": 120,
         "Volatility": 0.02,
-        "InitialInterestRate": 0.03
+        "Initial Interest Rate": 0.03
     },
     "solver_params": {
         "NumberOfSimulations": 10000
